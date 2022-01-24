@@ -77,6 +77,7 @@ Balance: 10000
 >3
 
 Transfer
+
 Enter card number:
 
 >4000003305160035
