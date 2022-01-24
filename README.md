@@ -93,6 +93,7 @@ Probably you made a mistake in the card number. Please try again!
 >3
 
 Transfer
+
 Enter card number:
 >4000003305061034
 >
