@@ -27,7 +27,7 @@ Your card number:
 4000003305160034
 Your card PIN:
 5639
-
+ 
 1. Create an account
 2. Log into account
 0. Exit
