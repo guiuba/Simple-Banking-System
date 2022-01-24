@@ -39,6 +39,7 @@ Your card PIN:
 
 Enter your card number:
 >4000009455296122
+>
 Enter your PIN:
 >1961
 
