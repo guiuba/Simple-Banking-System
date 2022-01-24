@@ -2,7 +2,7 @@
 Offering basic banking operations, uses Luhn algorithm to verify card number validity and performs JDBC interaction with a SQlite database.
 ------------------------------------------------
 This is my implementation of Jet Brains Simple-Banking-System project stage 4/4.
-This is how program works:
+How program works:
 
 Example 1:
 
