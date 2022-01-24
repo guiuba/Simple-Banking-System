@@ -11,7 +11,7 @@ Example 1:
 0. Exit
 >1
 
-Your card has been created
+Your card has been created\n
 Your card number:
 4000009455296122
 Your card PIN:
