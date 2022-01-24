@@ -79,6 +79,7 @@ Balance: 10000
 Transfer
 Enter card number:
 >4000003305160035
+>
 Probably you made a mistake in the card number. Please try again!
 
 1. Balance
