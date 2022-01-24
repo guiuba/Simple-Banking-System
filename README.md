@@ -55,6 +55,7 @@ You have successfully logged in!
 
 Enter income:
 >10000
+>
 Income was added!
 
 1. Balance
