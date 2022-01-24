@@ -14,11 +14,9 @@ Example 1:
 Your card has been created
 
 Your card number:
-
 4000009455296122
+
 Your card PIN:
-
-
 1961
 
 1. Create an account
