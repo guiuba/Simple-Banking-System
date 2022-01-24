@@ -25,8 +25,10 @@ Your card PIN:
 >1
 
 Your card has been created
+
 Your card number:
 4000003305160034
+
 Your card PIN:
 5639
  
