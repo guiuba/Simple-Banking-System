@@ -4,5 +4,6 @@ Offering basic banking operations, uses Luhn algorithm to verify card number val
 This is my implementation of Jet Brains Simple-Banking-System project stage 4/4.
 How program works:
 
-![image](https://user-images.githubusercontent.com/69851038/150774858-2918154f-ba67-4a38-a928-c4dc4cb61deb.png)
+![image](https://user-images.githubusercontent.com/69851038/150775051-0b697fcb-0389-4237-b652-dee2167bdc12.png)
+
 
