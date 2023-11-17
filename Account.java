@@ -1,3 +1,4 @@
+import java.security.SecureRandom;
 import org.sqlite.SQLiteDataSource;
 
 import java.sql.*;
@@ -30,7 +31,7 @@ public class Account {
     }
 
     static String accountCreator() {
-        Random random = new Random();
+        Random random = new SecureRandom();
         int bin = 400000;
         String accountID = String.format("%09d", ThreadLocalRandom.current().nextInt(1000000000));
         int checkSum = checkSumCreator(bin + accountID);  //
