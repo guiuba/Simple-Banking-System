@@ -1,4 +1,5 @@
 import java.security.SecureRandom;
+import java.sql.PreparedStatement;
 import org.sqlite.SQLiteDataSource;
 
 import java.sql.*;
@@ -89,8 +90,10 @@ public class Account {
     void dbInsertValues(String pin, String cardNumber) {
 
         try (Connection cn = sds.getConnection()) {
-            try (Statement st = cn.createStatement()) {
-                st.executeUpdate("INSERT INTO card (number, pin) VALUES (" + "'" + cardNumber + "', '" + pin + "')");
+            try (PreparedStatement st = cn.prepareStatement("INSERT INTO card (number, pin) VALUES (" + "?" + ", ?" + ")")) {
+                st.setString(1, cardNumber);
+                st.setString(2, pin);
+                st.execute();
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -147,11 +150,11 @@ public class Account {
 
     void addIncome(String cardNumber, int amount) {
         try (Connection cn = sds.getConnection()) {
-            try (Statement st = cn.createStatement()) {
-                st.executeUpdate(
-                        "UPDATE card SET balance = balance + "
-                                + amount + " WHERE number = '"
-                                + cardNumber + "' ");
+            try (PreparedStatement st = cn.prepareStatement("UPDATE card SET balance = balance + "
+                                + amount + " WHERE number = ?" + " ")) {
+                st.setString(1, cardNumber);
+                st.execute(
+                );
             } catch (Exception e) {
                 e.printStackTrace();
             }
